@@ -17,12 +17,16 @@ public class Servidor {
     
     public static boolean Login (String usuario, String senha)
     {
+        //codigo abaixo deve ser removido pois ele é apenas um codigo teste
+        
         MeuUsuario = new Usuario(0, 1, "mam", "mam", "mam", "mam");
         return true;
     }
     
     public static boolean Registrar (String nomeReal, String nomeUsuario, String email, String telefone)
     {
+        //codigo abaixo deve ser removido pois ele é apenas um codigo teste
+        
         return true;
     }
     
@@ -30,6 +34,9 @@ public class Servidor {
     //retorna 'null' se não pode executar a operação.
     public static Projeto[] GetProjetos()
     {
+        
+        //codigo abaixo deve ser removido pois ele é apenas um codigo teste
+        
         ArrayList<Projeto> pjs = new ArrayList<Projeto>();
         
         Random rand = new Random();
@@ -46,6 +53,8 @@ public class Servidor {
     
     public static Projeto EditarProjeto (int ID, String nome, String descricao)
     {
+        //codigo abaixo deve ser removido pois ele é apenas um codigo teste
+        
         return new Projeto(ID, -1, nome, descricao, "");
     }
     
@@ -61,11 +70,15 @@ public class Servidor {
     
     public static int[] PesquisarProjetos (String[] tags)
     {
+        //codigo abaixo deve ser removido pois ele é apenas um codigo teste
+        
         return null;
     }
     
     public static Requisito[] GetRequisitos (int IDProjeto)
     {
+        //codigo abaixo deve ser removido pois ele é apenas um codigo teste
+        
         ArrayList<Requisito> rqsts = new ArrayList<Requisito>();
         
         Random rand = new Random();
@@ -103,6 +116,8 @@ public class Servidor {
     
     public static Usuario[] GetUsuarios ()
     {
+        //codigo abaixo deve ser removido pois ele é apenas um codigo teste
+        
         var usuarios = new ArrayList<Usuario>();
         
         Random rand = new Random();
